@@ -1,0 +1,73 @@
+@font-face {
+ font-family: "sans";
+ src: url(./fonts/PT_Sans-Web-Regular.ttf);
+}
+@font-face {
+ font-family: "ptsans";
+ src: url(./fonts/PT_Sans-Web-Bold.ttf);
+}
+@font-face {
+ font-family: "opensans";
+ src: url(./fonts/OpenSans-CondLight.ttf);
+}
+
+@media screen and (min-width: 480px) {
+ img {
+  width: 100%;
+  margin: 1% 0;
+ }
+}
+@media screen and (min-width: 768px) {
+ img {
+  width: 48%;
+  margin: 1%;
+  float: right;
+ }
+}
+@media screen and (min-width: 1280px) {
+ img {
+  width: 24%;
+  margin: 0.5%;
+  float: right;
+ }
+}
+
+h1 {
+ font: 48px "ptsans" normal;
+ margin: 0;
+}
+h2 {
+ font: 20px "opensans" normal;
+ margin: 0;
+}
+
+header {
+ box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+ background: #2d2d2d;
+ text-align: center;
+ padding: 20px;
+ color: #efefef;
+}
+body {
+ background: url(./source/back.png);
+ margin: 0;
+}
+footer {
+ box-shadow: 0 0 2px rgba(0,0,0,0.5);
+ text-align: center;
+ background: #2d2d2d;
+ min-width: 100%;
+ position: fixed;
+ padding: 20px;
+ bottom: 0;
+ color: #efefef;
+ font: 12px "sans" normal;
+}
+img {
+ box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.content {
+ text-align: center;
+ margin: 20px 0;
+}
