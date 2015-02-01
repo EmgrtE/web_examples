@@ -19,16 +19,20 @@
 }
 @media screen and (min-width: 800px) {
   img {
-    width: 48%;
+    width: 47%;
     margin: 1%;
-    float: right;
+  }
+  .content {
+    padding: 1%;
   }
 }
 @media screen and (min-width: 1280px) {
   img {
-    width: 24%;
-    margin: 0.5%;
-    float: right;
+    width: 22%;
+    margin: 1%;
+  }
+  .content {
+    padding: 1%;
   }
 }
 
