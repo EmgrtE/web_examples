@@ -11,7 +11,7 @@
   src: url(../fonts/OpenSans-CondLight.ttf);
 }
 
-@media screen and (min-width: 0) {
+@media screen and (max-width: 800px) {
   img {
     width: 100%;
     margin: 1% 0;
