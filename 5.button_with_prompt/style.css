@@ -20,6 +20,7 @@ body {
   position: relative;
   transition: box-shadow .1s;
   text-shadow: 0 -1px 0 #505050;
+  background-color: #1e66c8;
   background-image: linear-gradient(#337cde, #0b53b4);
 }
 .button:before {
@@ -38,6 +39,7 @@ body {
   text-shadow: none;
 }
 .button:active {
+  background-color: #1e66c8;
   background-image: linear-gradient(#0b53b4, #337cde);
 }
 .button:hover {
