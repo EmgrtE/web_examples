@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url(../fonts/PT_Sans-Web-Regular.ttf);
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-CondLight.ttf);
+}
+
+h3 {
+  font: 24px 'Open Sans' normal;
+  text-align: center;
+  margin-top: 34px;
+  margin-bottom: 17px;
+}
+body {
+  margin: 25px;
+}
+p {
+  font: 14px 'PT Sans' normal;
+  min-width: 26em;
+  max-width: 34em;
+  line-height: 17px;
+  margin-bottom: 17px;
+  text-align: justify;
+}
